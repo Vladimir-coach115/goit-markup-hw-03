@@ -5,8 +5,8 @@
   --accent-color: #404bbf;
   --primary-white-color: #ffffff;
 }
-.main-page {
-  color: #2e2f42;
+.main-page .portfolio-page {
+  color: var(--mini-text-color);
   background-color: #ffffff;
   font-family: Roboto, Raleway sans-serif;
 }
@@ -15,11 +15,11 @@
 }
 
 /*Шапка сторінки */
-.logo-link {
+.logo {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.1;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
@@ -29,15 +29,17 @@
 .letter {
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.1;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-decoration: none;
   text-transform: uppercase;
-  color: var(--primary-text-color);
+  color: #f4f4fd;
 }
 
 .logo-link .letter:hover,
 .logo-link .letter:focus {
-  color: var(--brand-color);
+  cursor: pointer;
+  background-color: var(--accent-color);
 }
 
 .list .link {
@@ -45,6 +47,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
   text-decoration: none;
   color: var(--primary-text-color);
 }
@@ -58,6 +61,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
   text-decoration: none;
   color: #434455;
 }
@@ -72,8 +76,9 @@
   font-family: "Roboto";
   font-weight: 700;
   font-size: 56px;
-  line-height: 1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   text-decoration: none;
   color: var(--primary-white-color);
   background: var(--primary-text-color);
@@ -81,7 +86,6 @@
 /* Кнопка order service */
 
 .btn {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -94,7 +98,7 @@
 
 .btn:hover,
 .btn:focus {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 /* Вторая секция */
@@ -123,13 +127,16 @@
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   text-decoration: none;
   color: var(--primary-text-color);
+  background-color: #f4f4fd;
 }
 
-.colleauge_img {
+.colleauge-img {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -138,6 +145,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
 }
 
 .text {
