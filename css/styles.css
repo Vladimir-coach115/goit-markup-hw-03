@@ -4,11 +4,17 @@
   --mini-text-color: #434455;
   --accent-color: #404bbf;
   --primary-white-color: #ffffff;
+  --color-teamcard: #f4f4fd;
 }
-.main-page .portfolio-page {
+.portfolio-page {
+  font-family: Roboto, sans-serif;
+  color: var(--mini-text-color);
+}
+
+.main-page {
+  font-family: Roboto, sans-serif;
   color: var(--mini-text-color);
   background-color: var(--primary-white-color);
-  font-family: Roboto, Raleway, sans-serif;
 }
 
 .list {
@@ -45,7 +51,7 @@
 }
 /* Посилання */
 
-.list .link-one {
+.list .one-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -54,12 +60,12 @@
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.list .link-one:hover,
-.list .link-one:focus {
+.list .one-link:hover,
+.list .one-link:focus {
   color: var(--accent-color);
 }
 
-.list .link-two {
+.list .two-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -68,12 +74,12 @@
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.list .link-two:hover,
-.list .link-two:focus {
+.list .two-link:hover,
+.list .two-link:focus {
   color: var(--accent-color);
 }
 
-.list .link-three {
+.list .three-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -82,8 +88,8 @@
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.list .link-three:hover,
-.list .link-three:focus {
+.list .three-link:hover,
+.list .three-link:focus {
   color: var(--accent-color);
 }
 
@@ -170,7 +176,7 @@
   text-transform: capitalize;
   text-decoration: none;
   color: var(--primary-text-color);
-  background-color: #f4f4fd;
+  background-color: var(--color-teamcard);
 }
 
 .colleauge-img {

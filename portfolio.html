@@ -16,15 +16,8 @@
   <body class="portfolio-page">
     <!-- Шапка сторінки -->
     <header>
-      <nav>
-        <ul class="list">
-          <li>
-            <a href="./portfolio.html" class="logo-link"
-              >Web<span>STUDIO</span></a
-            >
-          </li>
-        </ul>
-
+      <nav class="logo-link">
+        <a href="./portfolio.html">Web<span>STUDIO</span></a>
         <ul class="list">
           <li><a href="" class="link-one">Studio</a></li>
           <li><a href="./index.html" class="link-two">Portfolio</a></li>
@@ -32,13 +25,13 @@
         </ul>
       </nav>
       <address class="address-nav">
-        <ul>
-          <li class="link">
+        <ul class="list">
+          <li>
             <a href="mailto:info@devstudio.com" class="address-link"
               >info@devstudio.com</a
             >
           </li>
-          <li class="link">
+          <li>
             <a href="tel:+110001111111" class="address-link"
               >+11 (000) 111-11-11</a
             >
@@ -46,21 +39,23 @@
         </ul>
       </address>
     </header>
+    <!-- Кнопки -->
+    <div>
+      <ul>
+        <li><button type="button">All</button></li>
+        <li><button type="button">Web Site</button></li>
+        <li><button type="button">App</button></li>
+        <li><button type="button">Design</button></li>
+        <li><button type="button">Marketing</button></li>
+      </ul>
+    </div>
+    <!-- Сервис приложения -->
     <main>
-      <!-- Кнопки -->
-      <div>
-        <ul>
-          <li><button type="button">All</button></li>
-          <li><button type="button">Web Site</button></li>
-          <li><button type="button">App</button></li>
-          <li><button type="button">Design</button></li>
-          <li><button type="button">Marketing</button></li>
-        </ul>
-      </div>
-      <!-- Сервис приложения -->
       <section>
-        <h2 class="title">Applications</h2>
-        <ul>
+        <h1 class="hide">Our Projects</h1>
+      </section>
+      <section>
+        <ul class="list">
           <li>
             <img
               src="./images-2/bankingapp.jpg"
@@ -70,15 +65,11 @@
             <h3 class="">Banking App Interface Concept</h3>
             <p class="">App</p>
           </li>
-        </ul>
-        <ul>
           <li>
             <img src="./images-2/cashlessapp.jpg" alt="phone" width="360" />
             <h3 class="">Cashless Payment</h3>
             <p class="">Marketing</p>
           </li>
-        </ul>
-        <ul>
           <li>
             <img src="./images-2/maditationapp.jpg" alt="laptop" width="360" />
             <h3 class="">Maditation App</h3>
@@ -87,8 +78,7 @@
         </ul>
       </section>
       <section>
-        <h2 class="title">Mobile Applications</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images-2/taxiservice.jpg"
@@ -98,8 +88,6 @@
             <h3 class="">Taxi Service</h3>
             <p class="">Marketing</p>
           </li>
-        </ul>
-        <ul>
           <li>
             <img
               src="./images-2/screenillustrations.jpg"
@@ -109,8 +97,6 @@
             <h3 class="">Screen Illustrations</h3>
             <p class="">Design</p>
           </li>
-        </ul>
-        <ul>
           <li>
             <img
               src="./images-2/onlinecourses.jpg"
@@ -123,8 +109,7 @@
         </ul>
       </section>
       <section>
-        <h2 class="title">Healthy Food Concept</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images-2/instagramstories.jpg"
@@ -134,8 +119,6 @@
             <h3 class="">Instagram Stories Concept</h3>
             <p class="">Design</p>
           </li>
-        </ul>
-        <ul>
           <li>
             <img
               src="./images-2/organicfood.jpg"
@@ -145,8 +128,6 @@
             <h3 class="">Organic Food</h3>
             <p class="">Web Site</p>
           </li>
-        </ul>
-        <ul>
           <li>
             <img
               src="./images-2/freshcoffee.jpg"
@@ -159,8 +140,8 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="./portfolio.html">WebStudio</a>
+    <footer class="logo-link">
+      <a href="./index.html">WEB<span class="letter">STUDIO</span></a>
       <p class="text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
