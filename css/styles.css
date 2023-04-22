@@ -10,7 +10,6 @@
   font-family: Roboto, sans-serif;
   color: var(--mini-text-color);
 }
-
 .main-page {
   font-family: Roboto, sans-serif;
   color: var(--mini-text-color);
@@ -23,7 +22,7 @@
 
 /*Шапка сторінки */
 /* Логотип */
-.logo-link {
+.logo {
   font-family: "Raleway", cans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -31,7 +30,6 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
-  list-style: none;
   color: var(--brand-color);
 }
 .letter {
@@ -41,17 +39,16 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
-  list-style: none;
   color: var(--primary-text-color);
 }
-.logo-link .letter:hover,
-.logo-link .letter:focus {
+.logo .letter:hover,
+.logo .letter:focus {
   cursor: pointer;
   background-color: var(--accent-color);
 }
 /* Посилання */
 
-.list .one-link {
+.list .one-studio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -60,12 +57,12 @@
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.list .one-link:hover,
-.list .one-link:focus {
+.list .one-studio:hover,
+.list .one-studio:focus {
   color: var(--accent-color);
 }
 
-.list .two-link {
+.list .two-portfolio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -74,12 +71,12 @@
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.list .two-link:hover,
-.list .two-link:focus {
+.list .two-portfolio:hover,
+.list .two-portfolio:focus {
   color: var(--accent-color);
 }
 
-.list .three-link {
+.list .three-contacts {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -88,8 +85,8 @@
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.list .three-link:hover,
-.list .three-link:focus {
+.list .three-contacts:hover,
+.list .three-contacts:focus {
   color: var(--accent-color);
 }
 
@@ -215,4 +212,60 @@
   background: var(--primary-text-color);
 }
 
-/* Сервис приложения */
+/* Сервис приложения - страничка 2 */
+
+/* Кнопки */
+
+.btn-all,
+.btn-site,
+.btn-app,
+.btn-design,
+.btn-marketing {
+  font-family: "Roboto", cans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--brand-color);
+  background: var(--color-teamcard);
+}
+
+.btn-all:hover,
+.btn-all:focus,
+.btn-site:hover,
+.btn-site:focus,
+.btn-app:hover,
+.btn-app:focus,
+.btn-design:hover,
+.btn-design:focus,
+.btn-marketing:hover,
+.btn-marketing:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.our-projects {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+
+.text-application {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--mini-text-color);
+}
