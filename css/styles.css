@@ -33,6 +33,7 @@
   color: var(--brand-color);
 }
 .letter {
+  font-family: "Raleway", cans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -97,7 +98,6 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
   text-decoration: none;
   color: #434455;
 }
@@ -173,7 +173,6 @@
   text-transform: capitalize;
   text-decoration: none;
   color: var(--primary-text-color);
-  background-color: var(--color-teamcard);
 }
 
 .colleauge-img {
@@ -185,7 +184,6 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-text-color);
-  background-color: var(--primary-white-color);
 }
 
 .text {
