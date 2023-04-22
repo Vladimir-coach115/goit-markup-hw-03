@@ -7,16 +7,18 @@
 }
 .main-page .portfolio-page {
   color: var(--mini-text-color);
-  background-color: #ffffff;
-  font-family: Roboto, Raleway sans-serif;
+  background-color: var(--primary-white-color);
+  font-family: Roboto, Raleway, sans-serif;
 }
+
 .list {
   list-style: none;
 }
 
 /*Шапка сторінки */
-.logo {
-  font-family: "Raleway";
+/* Логотип */
+.logo-link {
+  font-family: "Raleway", cans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -33,16 +35,17 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
-  color: #f4f4fd;
+  list-style: none;
+  color: var(--primary-text-color);
 }
-
 .logo-link .letter:hover,
 .logo-link .letter:focus {
   cursor: pointer;
   background-color: var(--accent-color);
 }
+/* Посилання */
 
-.list .link {
+.list .link-one {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -51,17 +54,47 @@
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.list .link:hover,
-.list .link:focus {
+.list .link-one:hover,
+.list .link-one:focus {
   color: var(--accent-color);
 }
+
+.list .link-two {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.list .link-two:hover,
+.list .link-two:focus {
+  color: var(--accent-color);
+}
+
+.list .link-three {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.list .link-three:hover,
+.list .link-three:focus {
+  color: var(--accent-color);
+}
+
+/* Адреса */
 
 .address-nav .address-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
+  font-style: normal;
   text-decoration: none;
   color: #434455;
 }
@@ -81,27 +114,31 @@
   text-align: center;
   text-decoration: none;
   color: var(--primary-white-color);
-  background: var(--primary-text-color);
+  background-color: var(--primary-text-color);
 }
-/* Кнопка order service */
 
+/* Кнопка order service */
 .btn {
+  font-family: "Roboto", cans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-decoration: none;
+  cursor: pointer;
   color: var(--primary-white-color);
   background: var(--brand-color);
 }
-
 .btn:hover,
 .btn:focus {
   background-color: var(--accent-color);
 }
 
 /* Вторая секция */
+.hide {
+  visibility: hidden;
+}
 .subtitle {
   font-weight: 500;
   font-style: normal;
@@ -171,3 +208,5 @@
   color: #f4f4fd;
   background: var(--primary-text-color);
 }
+
+/* Сервис приложения */
