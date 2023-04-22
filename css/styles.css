@@ -23,17 +23,14 @@
 /*Шапка сторінки */
 /* Логотип */
 .logo {
-  font-family: "Raleway", cans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--brand-color);
 }
 .letter {
-  font-family: "Raleway", cans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -205,9 +202,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
   color: #f4f4fd;
-  background: var(--primary-text-color);
 }
 
 /* Сервис приложения - страничка 2 */
