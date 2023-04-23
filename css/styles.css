@@ -6,12 +6,8 @@
   --primary-white-color: #ffffff;
   --color-teamcard: #f4f4fd;
 }
-.portfolio-page {
-  font-family: Roboto, sans-serif;
-  color: var(--mini-text-color);
-}
-.main-page {
-  font-family: Roboto, sans-serif;
+body {
+  font-family: Raleway, Roboto, sans-serif;
   color: var(--mini-text-color);
   background-color: var(--primary-white-color);
 }
@@ -43,11 +39,6 @@
 
 /* Посилання */
 
-.link {
-  text-decoration: none;
-}
-.list .link,
-.list .link,
 .list .link {
   font-family: "Roboto";
   font-style: normal;
@@ -55,7 +46,6 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
   text-decoration: none;
   color: var(--primary-text-color);
 }
@@ -66,22 +56,22 @@
 
 /* Адреса */
 
-.address-nav .address-link {
+.list .address {
   font-family: "Roboto";
   font-style: normal;
+  text-decoration: none;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #434455;
+  color: var(--mini-text-color);
 }
-.address-nav .address-link:hover,
-.address-nav .address-link:focus {
+.list .address:hover,
+.list .address:focus {
   color: var(--accent-color);
 }
 
-/* Первая секция */
+/* Перша секция */
 
 .main-title {
   font-family: "Roboto";
@@ -114,10 +104,13 @@
 }
 
 /* Вторая секция */
+/* Третья секция */
+/* Четвертая секция */
 .hide {
   visibility: hidden;
 }
 .subtitle {
+  font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
@@ -126,17 +119,6 @@
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.desc {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--mini-text-color);
-}
-
-/* Третья секция */
-/* Четвертая секция */
 .title {
   font-family: "Roboto";
   font-style: normal;
@@ -150,18 +132,6 @@
   color: var(--primary-text-color);
   background: var(--primary-white-color);
 }
-
-.colleauge-img {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--primary-text-color);
-}
-
 .text {
   font-family: "Roboto";
   font-style: normal;
@@ -189,11 +159,7 @@
 
 /* Кнопки */
 
-.btn-all,
-.btn-site,
-.btn-app,
-.btn-design,
-.btn-marketing {
+.btn {
   font-family: "Roboto", cans-serif;
   font-style: normal;
   font-weight: 500;
@@ -202,23 +168,25 @@
   letter-spacing: 0.04em;
   text-decoration: none;
   cursor: pointer;
+}
+.btn.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.btn.link {
   color: var(--brand-color);
   background: var(--color-teamcard);
 }
 
-.btn-all:hover,
-.btn-all:focus,
-.btn-site:hover,
-.btn-site:focus,
-.btn-app:hover,
-.btn-app:focus,
-.btn-design:hover,
-.btn-design:focus,
-.btn-marketing:hover,
-.btn-marketing:focus {
+
+.btn-link    :hover,
+.btn-link    :focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+
+
+
 
 .our-projects {
   font-family: "Roboto";
