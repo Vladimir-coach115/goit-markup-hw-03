@@ -22,31 +22,35 @@
 
 /*Шапка сторінки */
 /* Логотип */
-.logo {
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+.logo-link {
   text-decoration: none;
-  text-transform: uppercase;
 }
-.letter {
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  text-transform: uppercase;
+.logo-link {
+  color: var(--brand-color);
+}
+.logo-studio {
   color: var(--primary-text-color);
 }
-.logo .letter:hover,
-.logo .letter:focus {
-  cursor: pointer;
-  background-color: var(--accent-color);
+.logo-link,
+.logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
+
 /* Посилання */
 
-.list .one-studio {
+.link {
+  text-decoration: none;
+}
+.list .link,
+.list .link,
+.list .link {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -55,42 +59,16 @@
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.list .one-studio:hover,
-.list .one-studio:focus {
-  color: var(--accent-color);
-}
-
-.list .two-portfolio {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  font-style: normal;
-  text-decoration: none;
-  color: var(--primary-text-color);
-}
-.list .two-portfolio:hover,
-.list .two-portfolio:focus {
-  color: var(--accent-color);
-}
-
-.list .three-contacts {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  font-style: normal;
-  text-decoration: none;
-  color: var(--primary-text-color);
-}
-.list .three-contacts:hover,
-.list .three-contacts:focus {
+.list .link:hover,
+.list .link:focus {
   color: var(--accent-color);
 }
 
 /* Адреса */
 
 .address-nav .address-link {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -170,6 +148,7 @@
   text-transform: capitalize;
   text-decoration: none;
   color: var(--primary-text-color);
+  background: var(--primary-white-color);
 }
 
 .colleauge-img {
@@ -202,7 +181,8 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--color-teamcard);
+  background: var(--primary-text-color);
 }
 
 /* Сервис приложения - страничка 2 */
