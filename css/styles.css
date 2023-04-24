@@ -29,6 +29,7 @@ body {
 }
 .logo {
   font-family: "Raleway", sans-serif;
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -40,6 +41,7 @@ body {
 
 .list .link {
   font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -47,8 +49,8 @@ body {
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.list .link:hover,
-.list .link:focus {
+.list .header-link:hover,
+.list .header-link:focus {
   color: var(--accent-color);
 }
 
@@ -85,7 +87,6 @@ body {
 
 /* Кнопка order service */
 .btn {
-  font-family: "Roboto", cans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -94,7 +95,7 @@ body {
   text-decoration: none;
   cursor: pointer;
   color: var(--primary-white-color);
-  background: var(--brand-color);
+  background-color: var(--brand-color);
 }
 .btn:hover,
 .btn:focus {
@@ -107,17 +108,7 @@ body {
 .hide {
   visibility: hidden;
 }
-.subtitle {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-style: normal;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--primary-text-color);
-}
-  .work-title .title {
+.section-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -130,7 +121,19 @@ body {
   color: var(--primary-text-color);
   background: var(--primary-white-color);
 }
-.text {
+
+.section-subtitle {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.section-text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -158,7 +161,7 @@ body {
 /* Кнопки */
 
 .btn {
-  font-family: "Roboto", cans-serif;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -176,17 +179,18 @@ body {
   background: var(--color-teamcard);
 }
 
-
-.btn-link    :hover,
-.btn-link    :focus {
+.btn.primary:hover,
+.btn .primary:focus {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+}
+.btn:hover,
+.btn:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
 
-
-
-
-.our-projects {
+.project-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -198,7 +202,7 @@ body {
   background-color: var(--primary-white-color);
 }
 
-.text-application {
+.project-text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -208,3 +212,6 @@ body {
   text-decoration: none;
   color: var(--mini-text-color);
 }
+
+
+/*  */
