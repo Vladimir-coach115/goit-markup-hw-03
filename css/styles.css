@@ -118,7 +118,7 @@ body {
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.title {
+  .work-title .title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
