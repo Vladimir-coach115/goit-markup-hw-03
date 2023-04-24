@@ -7,7 +7,7 @@
   --color-teamcard: #f4f4fd;
 }
 body {
-  font-family: Raleway, Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
   color: var(--mini-text-color);
   background-color: var(--primary-white-color);
 }
@@ -18,18 +18,17 @@ body {
 
 /*Шапка сторінки */
 /* Логотип */
-.logo-link {
+.link {
   text-decoration: none;
 }
-.logo-link {
+.logo {
   color: var(--brand-color);
 }
 .logo-studio {
   color: var(--primary-text-color);
 }
-.logo-link,
-.logo-studio {
-  font-family: "Raleway", sans-serif;
+.logo {
+  font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -56,7 +55,7 @@ body {
 
 /* Адреса */
 
-.list .address {
+.list .header-contact-link {
   font-family: "Roboto";
   font-style: normal;
   text-decoration: none;
@@ -66,14 +65,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--mini-text-color);
 }
-.list .address:hover,
-.list .address:focus {
+.list .header-contact-link:hover,
+.list .header-contact-link:focus {
   color: var(--accent-color);
 }
 
 /* Перша секция */
 
-.main-title {
+.hero-title {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 56px;
