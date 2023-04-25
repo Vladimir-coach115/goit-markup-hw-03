@@ -182,9 +182,9 @@ body {
   letter-spacing: 0.04em;
   text-decoration: none;
   cursor: pointer;
-  color: var(--brand-color)
-  background-color var(--color-teamcard)
-};
+  color: var(--brand-color);
+  background-color var(--color-teamcard);
+}
 
 .btn-primary:hover,
 .btn-primary:focus {
