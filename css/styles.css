@@ -126,11 +126,11 @@ body {
   text-decoration: none;
   color: var(--primary-text-color);
 }
-
+/* 4 секція */
 .section-team {
   background: var(--color-teamcard)
 } 
-.section-personal {
+.personal {
   background-color: var(--primary-white-color);
 }
 
@@ -143,6 +143,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-text-color);
+  
 }
 
 .section-text {
