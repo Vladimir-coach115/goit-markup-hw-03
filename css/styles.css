@@ -99,8 +99,8 @@ body {
   color: var(--primary-white-color);
   background-color: var(--brand-color);
 }
-.btn:hover,
-.btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: var(--accent-color);
 }
 
@@ -108,17 +108,6 @@ body {
 /* Третья секция */
 /* Четвертая секция */
 
-.section-title-hide {
-   
-
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-
-
-}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -129,6 +118,8 @@ body {
   text-decoration: none;
   color: var(--primary-text-color);
 }
+
+
 /* 4 секція */
 .section-team {
   background: var(--color-teamcard)
