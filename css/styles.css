@@ -168,7 +168,9 @@ body {
   color: var(--color-teamcard);
   background: var(--primary-text-color);
 }
-
+.footer {
+  background: var(--primary-text-color);
+}
 /* Сервис приложения - страничка 2 */
 
 /* Кнопки */
