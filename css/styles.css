@@ -87,6 +87,7 @@ body {
 
 /* Кнопка order service */
 .btn {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -105,12 +106,17 @@ body {
 /* Вторая секция */
 /* Третья секция */
 /* Четвертая секция */
-.hide {
-  visibility: hidden;
+
+.section-title-hide {
+  visibility: hidden; 
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+
 }
 .section-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -119,7 +125,13 @@ body {
   text-transform: capitalize;
   text-decoration: none;
   color: var(--primary-text-color);
-  background: var(--primary-white-color);
+}
+
+.section-team {
+  background: var(--color-teamcard)
+} 
+.section-personal {
+  background-color: var(--primary-white-color);
 }
 
 .section-subtitle {
@@ -159,7 +171,9 @@ body {
 /* Сервис приложения - страничка 2 */
 
 /* Кнопки */
-
+.hero-title-hide {
+  visibility: hidden; 
+}
 .btn {
   font-family: "Roboto";
   font-style: normal;
