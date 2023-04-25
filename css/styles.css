@@ -108,17 +108,14 @@ body {
 /* Третья секция */
 /* Четвертая секция */
 
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  text-transform: capitalize;
-  text-decoration: none;
   color: var(--primary-text-color);
 }
-
 
 /* 4 секція */
 .section-team {
@@ -128,15 +125,15 @@ body {
   background-color: var(--primary-white-color);
 }
 
-.section-subtitle {
-  
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   text-decoration: none;
   color: var(--primary-text-color);
-  
 }
 
 .section-text {
@@ -182,6 +179,8 @@ body {
   letter-spacing: 0.04em;
   text-decoration: none;
   cursor: pointer;
+}
+.btn-primary {
   color: var(--brand-color);
   background-color var(--color-teamcard);
 }
@@ -191,6 +190,7 @@ body {
   color: var(--primary-white-color);
   background: var(--accent-color);
 }
+
 
 .project-title {
   font-weight: 500;
