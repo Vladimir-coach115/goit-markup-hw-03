@@ -172,6 +172,9 @@ body {
 .footer {
   background: var(--primary-text-color);
 }
+.logo-studio {
+  color: var(--color-teamcard);
+}
 /* Сервис приложения - страничка 2 */
 
 /* Кнопки */
