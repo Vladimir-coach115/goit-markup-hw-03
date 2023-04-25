@@ -185,13 +185,14 @@ body {
   cursor: pointer;
 }
 .btn-primary {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
+  color: var(--brand-color)
+  background-color var(--color-teamcard)
+};
+
 .btn-primary:hover,
 .btn-primary:focus {
-  color: var(--accent-color);
-  background: var(--primary-white-color);
+  color: var(--primary-white-color);
+  background: var(--accent-color);
 }
 
 .btn-link {
