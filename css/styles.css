@@ -86,8 +86,8 @@ body {
   color: var(--primary-white-color);
 }
   
-
 /* Кнопка order service */
+
 .hero-btn {
   font-family: inherit;
   font-weight: 500;
@@ -131,7 +131,6 @@ body {
 .section-subtitle {
   
   font-weight: 500;
-  font-style: normal;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -165,13 +164,19 @@ body {
 .footer .logo-studio {
   color: var(--color-teamcard);
 }
+
+
 /* Сервис приложения - страничка 2 */
 
-/* Кнопки */
-.hero-title-hide {
+.portfolio-title {
   visibility: hidden; 
 }
-.btn {
+
+/* Кнопки Portfolio */
+
+.btn-primary,
+.btn-link {
+  font-family: inherit; 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -179,22 +184,23 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
-.btn.primary {
+.btn-primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.btn.link {
+.btn-primary:hover,
+.btn-primary:focus {
+  color: var(--accent-color);
+  background: var(--primary-white-color);
+}
+
+.btn-link {
   color: var(--brand-color);
   background: var(--color-teamcard);
 }
 
-.btn.primary:hover,
-.btn .primary:focus {
-  color: var(--accent-color);
-  background-color: var(--primary-white-color);
-}
-.btn:hover,
-.btn:focus {
+.btn-link:hover,
+.btn-link:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
@@ -206,12 +212,12 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-text-color);
-  background-color: var(--primary-white-color);
+  background-color: 
+  var(--primary-white-color);
 }
 
 .project-text {
-  font-family: "Roboto";
-  font-style: normal;
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
