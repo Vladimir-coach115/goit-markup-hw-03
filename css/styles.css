@@ -55,10 +55,10 @@ body {
 }
 
 /* Адреса */
-
-.list .header-contact-link {
-  font-family: "Roboto";
+.header-address {
   font-style: normal;
+}
+.list .header-contact-link {
   text-decoration: none;
   font-weight: 400;
   font-size: 16px;
@@ -73,8 +73,10 @@ body {
 
 /* Перша секция */
 
+.hero {
+  background-color: var(--primary-text-color);
+}
 .hero-title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -82,13 +84,12 @@ body {
   text-align: center;
   text-decoration: none;
   color: var(--primary-white-color);
-  background-color: var(--primary-text-color);
 }
+  
 
 /* Кнопка order service */
-.btn {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+.hero-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -108,12 +109,14 @@ body {
 /* Четвертая секция */
 
 .section-title-hide {
-  visibility: hidden; 
+   
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+
 
 }
 .section-title {
@@ -135,7 +138,7 @@ body {
 }
 
 .section-subtitle {
-  font-family: "Roboto";
+  
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
@@ -147,8 +150,6 @@ body {
 }
 
 .section-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -159,8 +160,6 @@ body {
 
 /* Подвал */
 .footer-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -182,8 +181,6 @@ body {
   visibility: hidden; 
 }
 .btn {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -212,8 +209,6 @@ body {
 }
 
 .project-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
