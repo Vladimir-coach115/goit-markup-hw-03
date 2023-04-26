@@ -190,7 +190,7 @@ body {
 }
 .btn-link {
   color: var(--brand-color);
-  background-color var(--color-teamcard);
+  background-color: var(--color-teamcard);
 }
 
 .btn-link:hover,
