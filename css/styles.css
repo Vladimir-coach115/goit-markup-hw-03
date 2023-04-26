@@ -108,13 +108,8 @@ body {
 /* Третья секция */
 /* Четвертая секция */
 
-.section-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--primary-text-color);
+.section-subtit {
+  visibility: hidden; 
 }
 
 /* 4 секція */
@@ -171,7 +166,7 @@ body {
 
 /* Кнопки Portfolio */
 
-.btn-primary {
+.btn-link {
   font-family: "Roboto", sans-serif; 
   font-weight: 500;
   font-size: 16px;
@@ -180,13 +175,13 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
-.btn-primary {
+.btn-link {
   color: var(--brand-color);
   background-color var(--color-teamcard);
 }
 
-.btn-primary:hover,
-.btn-primary:focus {
+.btn-link:hover,
+.btn-link:focus {
   color: var(--primary-white-color);
   background: var(--accent-color);
 }
