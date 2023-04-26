@@ -6,6 +6,9 @@
   --primary-white-color: #ffffff;
   --color-teamcard: #f4f4fd;
 }
+img {
+  display: block;
+}
 body {
   font-family: Roboto, sans-serif;
   color: var(--mini-text-color);
@@ -220,6 +223,8 @@ body {
   text-decoration: none;
   color: var(--mini-text-color);
 }
+
+/* Test */
 
 
 /*  */
