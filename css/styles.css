@@ -6,10 +6,46 @@
   --primary-white-color: #ffffff;
   --color-teamcard: #f4f4fd;
 }
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
 img {
   display: block;
+  max-width: 100%;
 }
+.container {
+  outline: solid 2px tomato;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+
+/* body */
+
 body {
+  margin: 0 auto;
+  width: 1440px;
   font-family: Roboto, sans-serif;
   color: var(--mini-text-color);
   background-color: var(--primary-white-color);
@@ -31,6 +67,7 @@ body {
   color: var(--primary-text-color);
 }
 .logo {
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -39,6 +76,28 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
+.header .container {
+  display: flex;
+  margin: 0%;
+}
+.header-nav {
+  display: flex;
+  margin: 0;
+}
+.header-list {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+}
+.header-address {
+  margin-left: auto;
+}
+.header-contacts {
+  display: flex;
+  gap: 40px;
+}
+
 
 /* Посилання */
 
@@ -77,31 +136,43 @@ body {
 /* Перша секция */
 
 .hero {
+  text-align: center;
   background-color: var(--primary-text-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
+  max-width: 496px;
+  margin-bottom: 48px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
-  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
   color: var(--primary-white-color);
 }
   
+
 /* Кнопка order service */
 
 .hero-btn {
+  margin: 0 auto;
+  display: block;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  text-decoration: none;
   cursor: pointer;
-  color: var(--primary-white-color);
+  border: none;
+  color: var(--primary-white-color) ;
   background-color: var(--brand-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
+
+
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--accent-color);
@@ -109,8 +180,6 @@ body {
 
 /* Вторая секция */
 /* Третья секция */
-
-
 .section-subtit { 
   font-weight: 500;
   font-size: 20px;
@@ -118,8 +187,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-
-
 /* 4 секція */
 .section-team {
   background: var(--color-teamcard)
@@ -173,7 +240,6 @@ body {
   color: var(--color-teamcard);
 }
 
-
 /* Сервис приложения - страничка 2 */
 
 .portfolio-title {
@@ -202,7 +268,6 @@ body {
   background: var(--accent-color);
 }
 
-
 .project-title {
   font-weight: 500;
   font-size: 20px;
@@ -215,7 +280,6 @@ body {
 }
 
 .project-text {
-  
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -224,7 +288,51 @@ body {
   color: var(--mini-text-color);
 }
 
-/* Test */
+/* Style  hero */
 
+
+.box {
+  outline: 5px solid green;
+  
+}
+
+.footer-text {
+  font-weight: 400;
+font-size: 16px;
+line-height: calc(16/24);
+letter-spacing: 0.02em;
+}
+
+.footer .container {
+   display: flex;
+  gap: 50px;
+}
+.footer {
+ 
+  
+  
+}
+
+
+
+
+
+
+
+
+/* .hero-btn {
+  display: inline-block;
+  text-align: center;
+  padding: 16px 32px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--primary-white-color);
+
+  background: var(--brand-color);
+  
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  
+
+} */
 
 /*  */
