@@ -44,8 +44,6 @@ img {
 /* body */
 
 body {
-  margin: 0 auto;
-  width: 1440px;
   font-family: Roboto, sans-serif;
   color: var(--mini-text-color);
   background-color: var(--primary-white-color);
@@ -85,26 +83,25 @@ body {
   display: flex;
   align-items: center;
   margin-left: 0;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+  
 }
 .header-list {
   display: flex;
   gap: 40px;
   margin: 0;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
-}
-.header-item {
   padding-top: 24px;
-  padding-bottom: 24px;
-}
+  padding-bottom: 24px; 
+  }
+
+
 .header-address {
   margin-left: auto;
 }
 .header-contacts {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px; 
 }
 
 
@@ -142,10 +139,12 @@ body {
   color: var(--accent-color);
 }
 
-/* Перша секция */
+/* 1 секция */
 
 .hero {
   text-align: center;
+  margin: 0 auto;
+  width: 1440px;
   background-color: var(--primary-text-color);
   padding-top: 188px;
   padding-bottom: 188px;
@@ -186,15 +185,7 @@ body {
   background-color: var(--accent-color);
 }
 
-/* Вторая секция */
-/* Третья секция */
-
-
-.section {
-  text-align: center;
-  background-color: 
-  padding-top: ;
-}
+/* 2 секция */
 
 .section-subtit { 
   font-weight: 500;
@@ -205,10 +196,63 @@ body {
   margin-right: auto;
   color: var(--primary-text-color);
 }
+ .section-list {
+  display: flex;
+  text-align: center;
+ }
+.advantages {
+padding-top: 120px;
+}
+.advantages-text, .advantages-title {
+  text-align: left;
+}
+.advantages-title {
+  margin-bottom: 8px;
+}
 
+.advantages .advantages-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+section {
+  outline: solid green;
+}
 
+.advantages-list {
+  gap: 24px;
+}
+/* 3 сукція */
 
-
+.section-title {
+  margin-bottom: 72px;
+}
+.section-product {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 72px;
+}
+.section-product-list {
+  gap: 24px;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-title { 
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
 
 /* 4 секція */
 .section-team {
@@ -218,7 +262,9 @@ body {
   background-color: var(--primary-white-color);
 }
 
-.section-title {
+.section-title-team { 
+  margin-bottom: 72px;
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -244,6 +290,20 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--mini-text-color);
+}
+
+.list-lead  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.section-team {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 72px; 
+
 }
 
 /* Подвал */
