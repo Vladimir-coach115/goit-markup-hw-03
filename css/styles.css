@@ -153,7 +153,6 @@ body {
   color: var(--primary-white-color);
 }
   
-
 /* Кнопка order service */
 
 .hero-btn {
@@ -166,15 +165,13 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   border: none;
-  color: var(--primary-white-color) ;
-  background-color: var(--brand-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
+  color: var(--primary-white-color) ;
+  background-color: var(--brand-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-
-
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--accent-color);
@@ -182,13 +179,28 @@ body {
 
 /* Вторая секция */
 /* Третья секция */
+
+
+.section {
+  text-align: center;
+  background-color: 
+  padding-top: ;
+}
+
 .section-subtit { 
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-left: auto;
+  margin-right: auto;
   color: var(--primary-text-color);
 }
+
+
+
+
+
 /* 4 секція */
 .section-team {
   background: var(--color-teamcard)
