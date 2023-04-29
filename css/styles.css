@@ -33,7 +33,7 @@ img {
   max-width: 100%;
 }
 .container {
-  /* outline: solid 2px tomato; */
+  outline: solid 2px tomato;
   width: 1158px;
   margin: 0 auto;
   padding-right: 15px;
@@ -276,9 +276,7 @@ color: #434455;
 }
 
 /* 4 секція */
-/* .container-aside {
-  
-}  */
+
 .section-team {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -351,6 +349,9 @@ color: #434455;
 }
  .footer-studio {
   color: var(--color-teamcard);
+}
+.logo-footer {
+  margin-bottom: 16px;
 }
 .footer-studio {
   display: inline-block;
