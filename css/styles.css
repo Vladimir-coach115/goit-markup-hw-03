@@ -80,7 +80,7 @@ body {
 .header {
   border-bottom: 1px solid #e7e9fc 
 }
-}
+
 
 .header .container {
   display: flex;
@@ -276,12 +276,14 @@ color: #434455;
 }
 
 /* 4 секція */
-.container-aside
+/* .container-aside {
+  
+}  */
 .section-team {
   padding-top: 120px;
   padding-bottom: 120px;
-  background: var(--color-teamcard)
-} 
+  background: var(--color-teamcard);
+}
 
 .section-title-team { 
   font-style: normal;
@@ -296,6 +298,7 @@ color: #434455;
 .list-lead  {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 
 .personal {
