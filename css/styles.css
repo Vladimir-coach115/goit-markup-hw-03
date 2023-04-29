@@ -78,6 +78,7 @@ body {
   text-transform: uppercase;
 }
 
+
 .header .container {
   display: flex;
   margin: 0 auto;
@@ -85,8 +86,7 @@ body {
 .header-nav {
   display: flex;
   align-items: center;
-  margin-left: 0;
-  
+  margin-left: 0; 
 }
 .header-list {
   display: flex;
@@ -126,6 +126,7 @@ body {
 }
 
 /* Адреса */
+
 .header-address {
   font-style: normal;
 }
@@ -206,6 +207,7 @@ body {
  }
 .advantages {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .advantages-text, .advantages-title {
   text-align: left;
@@ -234,17 +236,19 @@ color: #434455;
 
 
 /* 3 сукція */
+.section-product {
+  text-align: center;
+  padding-bottom: 120px;
+  
+}
 
 .section-title {
   margin-bottom: 72px;
 }
-.section-product {
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 72px;
-}
+
 .section-product-list {
   gap: 24px;
+  
 }
 .imege {
   width: calc((100%-48px)/3);
@@ -255,6 +259,7 @@ color: #434455;
   align-items: center;
 }
 .section-title { 
+
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -267,6 +272,8 @@ color: #434455;
 
 /* 4 секція */
 .section-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background: var(--color-teamcard)
 } 
 
@@ -291,17 +298,19 @@ color: #434455;
 }
 
 .personal {
+  border-radius: 0px 0px 4px 4px; 
   width: calc((100%-92px)/4);
   background-color: var(--primary-white-color);
 }
 .expect {
-  padding-right: 16px;
-  padding-left: 16px;
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 .section-subtitle {
+  margin-bottom: 8px;
   text-align: center;
   font-weight: 500;
   font-size: 20px;
@@ -318,14 +327,6 @@ color: #434455;
   letter-spacing: 0.02em;
   color: var(--mini-text-color);
 }
-
-
-
-/* .section-team {
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 72px;  */
-
 
 
 /* Подвал */
@@ -349,11 +350,11 @@ color: #434455;
 }
 .footer-studio {
   display: inline-block;
-  margin-bottom: 16px;
+  margin-bottom: 16px; 
 }  
 
+/* Portfolio */
 
-/* Сервис приложения - страничка 2 */
 
 .portfolio-title {
   visibility: hidden; 
