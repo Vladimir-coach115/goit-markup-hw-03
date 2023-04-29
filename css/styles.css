@@ -33,7 +33,7 @@ img {
   max-width: 100%;
 }
 .container {
-  outline: solid 2px tomato;
+  /* outline: solid 2px tomato; */
   width: 1158px;
   margin: 0 auto;
   padding-right: 15px;
@@ -271,6 +271,7 @@ color: #434455;
 }
 
 /* 4 секція */
+.container-aside
 .section-team {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -285,11 +286,6 @@ color: #434455;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  /* text-align: center; */
-  /* text-transform: capitalize; */
-
-  /* text-decoration: none; */
-
   color: var(--primary-text-color);
 }
 .list-lead  {
@@ -302,7 +298,7 @@ color: #434455;
   width: calc((100%-92px)/4);
   background-color: var(--primary-white-color);
 }
-.expect {
+.excerpt {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-right: 16px;
