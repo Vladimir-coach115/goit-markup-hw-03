@@ -41,7 +41,7 @@ img {
 }
 
 .container {
-  outline: solid 2px tomato;
+  /* outline: solid 2px tomato; */
   width: 1158px;
   margin: 0 auto;
   padding-right: 15px;
@@ -355,7 +355,7 @@ color: #434455;
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 72p;
+  margin-bottom: 72p;
 }
 .visually-hidden {
     position: absolute;
@@ -375,7 +375,6 @@ color: #434455;
 
 .btn-link {
   font-family: "Roboto", sans-serif; 
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -405,6 +404,8 @@ column-gap: 24px;
 row-gap: 48px; 
 }
 .iteam {
+  background: var(--primary-white-color);
+  border: 1px solid #E7E9FC;
   width: calc((100%-48px)/3);
 }
 
