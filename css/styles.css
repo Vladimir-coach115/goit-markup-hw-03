@@ -356,8 +356,7 @@ color: #434455;
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 72p;
-  /* padding-top: 96px; */
+ margin-bottom: 72p;
 }
 .visually-hidden {
     position: absolute;
@@ -372,7 +371,6 @@ color: #434455;
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  
 
 /* Кнопки Portfolio */
 
@@ -390,6 +388,7 @@ color: #434455;
 .btn-link {
   padding: 12px 24px;
   border-radius: 4px;
+  border: 1px solid #e7e9fc;
   color: var(--brand-color);
   /* background-color: var(--color-teamcard); */
 }
@@ -397,26 +396,25 @@ color: #434455;
 .btn-link:focus {
   color: var(--primary-white-color);
   background: var(--accent-color);
+  border: 1px solid transparent;
 }
-
 .menu { 
 display: flex;
-gap: 24px;
-/* flex-direction: row;
-justify-content: center;
-align-items: center; */
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px; 
 }
 .iteam {
-  /* width: calc((100%-92px)/4); */
+  width: calc((100%-48px)/3);
 }
+
 .desc {
-  padding-top: 0;
-  padding-bottom: 95px;
-  padding-right: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .project-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
