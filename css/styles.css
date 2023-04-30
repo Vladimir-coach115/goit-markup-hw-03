@@ -46,7 +46,6 @@ img {
   margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
-  margin: 0 auto;
 }
 
 
@@ -113,7 +112,6 @@ body {
   padding-top: 24px;
   padding-bottom: 24px; 
 }
-
 
 /* Посилання */
 
@@ -236,9 +234,6 @@ color: #434455;
   outline: solid green;
 } */
 
-
-
-
 /* 3 сукція */
 .section-product {
   text-align: center;
@@ -252,8 +247,7 @@ color: #434455;
 
 .section-product-list {
   gap: 24px;
-  
-}
+  }
 .imege {
   width: calc((100%-48px)/3);
 }
@@ -353,27 +347,23 @@ color: #434455;
 }
 
 
-/* .footer-studio {
-  display: inline-block; */
-  /* margin-bottom: 16px;  */
-  
-/* Пробное */
-/* .logo {
-  display: inline-block;
-  color: var(--brand-color);
-}
-.header .logo-studio {
-  color: var(--primary-text-color);
-} */
-
-
-
-
-
 /* Portfolio */
-.portfolio-title {
-  visibility: hidden; 
-}
+/* .portfolio-title { */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
 
 /* Кнопки Portfolio */
 
@@ -383,18 +373,44 @@ color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  text-decoration: none;
+  display: block;
+  align-items: center;
+  text-align: center;
   cursor: pointer;
 }
 .btn-link {
+  padding: 12px 24px;
   color: var(--brand-color);
-  background-color: var(--color-teamcard);
+  /* background-color: var(--color-teamcard); */
 }
-
 .btn-link:hover,
 .btn-link:focus {
   color: var(--primary-white-color);
   background: var(--accent-color);
+}
+.portfolio-list {
+  gap: 24px;
+  padding-top: 96px;
+  padding-right: auto;
+  padding-bottom: 72px;
+  padding-left: auto;
+}
+
+.menu { 
+display: flex;
+gap: 24px;
+/* flex-direction: row;
+justify-content: center;
+align-items: center; */
+}
+.iteam {
+  /* width: calc((100%-92px)/4); */
+}
+.desc {
+  padding-top: 0;
+  padding-bottom: 95px;
+  padding-right: 32px;
+  padding-left: 16px;
 }
 
 .project-title {
