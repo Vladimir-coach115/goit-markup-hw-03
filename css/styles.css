@@ -31,7 +31,15 @@ a {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
 .container {
   outline: solid 2px tomato;
   width: 1158px;
@@ -51,31 +59,27 @@ body {
   background-color: var(--primary-white-color);
 }
 
-.list {
-  list-style: none;
-}
+
 
 /*Шапка сторінки */
 /* Логотип */
-.link {
-  text-decoration: none;
-}
-.logo {
-  display: inline-block;
-  color: var(--brand-color);
-}
-.header .logo-studio {
+
+.logo-studio {
   color: var(--primary-text-color);
 }
+
+/* .header */
 .logo {
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  color: var(--brand-color);
 }
 .header {
   border-bottom: 1px solid #e7e9fc 
@@ -98,6 +102,7 @@ body {
 .header-link {
   padding: 24px 0;
 }
+/* address */
 
 .header-address {
   margin-left: auto;
@@ -112,7 +117,7 @@ body {
 
 /* Посилання */
 
-.list .link {
+.header-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -122,8 +127,8 @@ body {
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.list .header-link:hover,
-.list .header-link:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--accent-color);
 }
 
@@ -132,7 +137,7 @@ body {
 .header-address {
   font-style: normal;
 }
-.list .header-contact-link {
+.header-contact-link {
   text-decoration: none;
   font-weight: 400;
   font-size: 16px;
@@ -140,8 +145,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--mini-text-color);
 }
-.list .header-contact-link:hover,
-.list .header-contact-link:focus {
+.header-contact-link:hover,
+.header-contact-link:focus {
   color: var(--accent-color);
 }
 
@@ -194,7 +199,7 @@ body {
 
 /* 2 секция */
 
-.section-subtit { 
+.section-subtit {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -215,15 +220,12 @@ body {
   text-align: left;
 }
 .section-item {
-  width: calc((100%-72px)/4);
-  
+  width: calc((100%-72px)/4); 
 }
 .advantages-title {
   margin-bottom: 8px;
 }
-
 .advantages-text {
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -330,7 +332,7 @@ color: #434455;
 
 /* Подвал */
 .footer-text {
-   max-width: 264px;
+  max-width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -354,8 +356,7 @@ color: #434455;
 /* .footer-studio {
   display: inline-block; */
   /* margin-bottom: 16px;  */
- 
-
+  
 /* Пробное */
 /* .logo {
   display: inline-block;
