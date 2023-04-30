@@ -351,7 +351,7 @@ color: #434455;
 .portfolio {
   padding: 96px 0 120px;
 }
-.portfolio-link {
+.container .portfolio-selt {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -404,7 +404,7 @@ column-gap: 24px;
 row-gap: 48px; 
 }
 .iteam {
-  width: calc((100%-24px)/3);
+  width: calc((100%-48px)/3);
 }
 
 .desc {
