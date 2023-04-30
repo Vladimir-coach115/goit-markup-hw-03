@@ -94,8 +94,6 @@ body {
   display: flex;
   gap: 40px;
   margin: 0;
-  /* padding-top: 24px;
-  padding-bottom: 24px;  */
   }
 .header-link {
   padding: 24px 0;
@@ -348,7 +346,7 @@ color: #434455;
   color: var(--color-teamcard);
 }
 
-.logo .link {
+.footer .logo {
   margin-bottom: 16px; 
 }
 
