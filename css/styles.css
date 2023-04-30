@@ -349,7 +349,16 @@ color: #434455;
 
 /* Portfolio */
 /* .portfolio-title { */
-
+.portfolio {
+  padding: 96px 0 120px;
+}
+.portfolio-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72p;
+  /* padding-top: 96px; */
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -380,6 +389,7 @@ color: #434455;
 }
 .btn-link {
   padding: 12px 24px;
+  border-radius: 4px;
   color: var(--brand-color);
   /* background-color: var(--color-teamcard); */
 }
@@ -387,13 +397,6 @@ color: #434455;
 .btn-link:focus {
   color: var(--primary-white-color);
   background: var(--accent-color);
-}
-.portfolio-list {
-  gap: 24px;
-  padding-top: 96px;
-  padding-right: auto;
-  padding-bottom: 72px;
-  padding-left: auto;
 }
 
 .menu { 
