@@ -323,8 +323,18 @@ color: #434455;
   color: var(--mini-text-color);
 }
 
-
 /* Подвал */
+
+.footer {
+  padding: 100px 0;
+  background: var(--primary-text-color);
+}
+ .footer-studio {
+  color: var(--color-teamcard);
+  display: inline-block;
+  margin-bottom: 16px; 
+}
+
 .footer-text {
   max-width: 264px;
   font-weight: 400;
@@ -333,17 +343,6 @@ color: #434455;
   letter-spacing: 0.02em;
   color: var(--color-teamcard);
   background: var(--primary-text-color);
-}
-.footer {
-  padding: 100px 0;
-  background: var(--primary-text-color);
-}
- .footer-studio {
-  color: var(--color-teamcard);
-}
-
-.footer .logo {
-  margin-bottom: 16px; 
 }
 
 /* Portfolio */
@@ -357,6 +356,10 @@ color: #434455;
   gap: 24px;
   margin-bottom: 72px;
 }
+.pic {
+
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -371,7 +374,7 @@ color: #434455;
     overflow: hidden;
   }
 /* Кнопки Portfolio */
-.btn-link {
+.btn {
   font-family: "Roboto", sans-serif; 
   font-weight: 500;
   font-size: 16px;
