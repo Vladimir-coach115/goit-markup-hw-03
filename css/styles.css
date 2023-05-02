@@ -329,11 +329,14 @@ color: #434455;
   padding: 100px 0;
   background: var(--primary-text-color);
 }
+
+
  .footer-studio {
   color: var(--color-teamcard);
   display: inline-block;
   margin-bottom: 16px; 
 }
+
 
 .footer-text {
   max-width: 264px;
@@ -344,6 +347,7 @@ color: #434455;
   color: var(--color-teamcard);
   background: var(--primary-text-color);
 }
+
 
 /* Portfolio */
 
