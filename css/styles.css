@@ -329,14 +329,14 @@ color: #434455;
   padding: 100px 0;
   background: var(--primary-text-color);
 }
-
-
+.logo .logo-footer {
+  margin-bottom: 16px; 
+}
  .footer-studio {
   color: var(--color-teamcard);
   display: inline-block;
   margin-bottom: 16px; 
 }
-
 
 .footer-text {
   max-width: 264px;
